@@ -4,7 +4,7 @@
 <b>Discipline | <b>Computer Science Engineering
 :--|:--|
 <b> Lab | <b> Web Designing Lab
-<b> Experiment|     <b> 4. 4.	To create an html page to explain the use of various predefined functions in an array & Date object in Javascript
+<b> Experiment|     <b> 4. To create an html page to explain the use of various predefined functions in an array & Date object in Javascript
 
 ### About the Experiment 
 
