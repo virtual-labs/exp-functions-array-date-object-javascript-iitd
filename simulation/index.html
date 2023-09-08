@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<head>
+	<title>JS Editor</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	 <link rel="stylesheet" href="css/style.css">
+</head>
+
+<center><div class="container" >
+    <div class="row">
+      <h3><b><u>JS Code Editor for Pre-Defined Array Function</u></b></h3>
+      <br>
+      <div class="col-sm-2">
+        <div class="tbox">
+            Join Function :
+            <p> array.join() </p><br>
+            
+      <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+      innerHTML=`  <!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:orange;text-align:center;">
+<h2 style="font-family:cursive;color:red;">JavaScript join function for array</h2>
+
+<p>The join() method joins array elements into a string.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var arr=[1,2,3,4,5,6]
+document.getElementById("demo").innerHTML = arr;
+
+function myFunction() {
+
+document.getElementById("demo").innerHTML = arr.join("+");
+}
+</script>
+<script src="../assets/js/iframeResize.js"></script></body>
+</html>`'>
+    Implement this </button></div>
+    </div>
+        <div class="col-sm-2">
+            <div class="tbox">
+                Shift Function : 
+                <p> array.shift()</p><br>
+                
+          <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+          innerHTML=` <!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:yellow;text-align:center;">
+<h2 style="font-family:cursive;color:green;">JavaScript shift Function for array</h2>
+
+<p>The shift() method removes the first element of an array (and "shifts" all other elements to the left):</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var arr=["Apple","Banana","Orange","Lemon"]
+document.getElementById("demo").innerHTML = arr;
+
+function myFunction() {
+  arr.shift()
+  document.getElementById("demo").innerHTML = arr;
+}
+</script>
+</body>
+</html>`'>
+        Implement this </button></div>
+        </div>
+
+        <div class="col-sm-2">
+            <div class="tbox">
+                Unshift Function :
+                <p> array.unshift() </p><br>
+                
+          <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+          innerHTML=`  <!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:orange;text-align:center;">
+<h2 style="font-family:cursive;color:red;">JavaScript unshift function for array</h2>
+
+<p>The unshift() method adds new elements to the beginning of an array.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var arr=["Apple","Banana","Orange","Lemon"]
+document.getElementById("demo").innerHTML = arr;
+
+function myFunction() {
+  arr.unshift("Pear")
+  document.getElementById("demo").innerHTML = arr;
+}
+</script>
+</body>
+</html>`'>
+        Implement this </button></div>
+        </div>
+
+
+
+        <div class="col-sm-2">
+            <div class="tbox">
+                Push Function: 
+                    <p> array.push()</p> <br>
+              <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+              innerHTML=` <!DOCTYPE html>
+<html>
+<body style="background-color:pink;text-align:center;" >
+
+<h2 style="font-family:cursive;color:blue;">JavaScript push function for array</h2>
+
+<p>The push() method appends a new element to an array.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var arr=[11,23,24,43,2]
+document.getElementById("demo").innerHTML = arr;
+
+function myFunction() {
+  arr.push(34)
+  document.getElementById("demo").innerHTML = arr;
+}
+</script>
+
+</body>
+</html>`'> 
+            Implement this </button></div>
+
+        </div>
+
+
+        <div class="col-sm-2">
+            <div class="tbox">
+                Pop Function :
+                    <p> array.pop()</p> <br>
+              <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+             innerHTML=` <!DOCTYPE html>
+<html>
+<body style="background-color:yellow;text-align:center;" >
+
+<h2 style="font-family:cursive;color:blue;">JavaScript pop function for array</h2>
+
+<p>The pop() method removes the last element from an array.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var arr=[11,22,33,44,55]
+document.getElementById("demo").innerHTML = arr;
+
+function myFunction() {
+  var res=arr.pop()
+  document.getElementById("demo").innerHTML ="Array after pop: "+ arr;
+}
+</script>
+
+</body>
+</html>`'> 
+            Implement this </button></div>
+
+        </div>
+        <div class="col-sm-2">
+            <div class="tbox">
+                Splice Function :
+                <p> array.splice() </p><br>
+                
+          <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode").
+          innerHTML=`  <!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:orange;text-align:center;">
+<h2 style="font-family:cursive;color:red;">JavaScript splice function for array</h2>
+
+<p>The splice() method adds new elements to an array, and returns an array with the deleted elements (if any).</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var arr =["Apple, Orange, Pear, Banana"]
+document.getElementById("demo").innerHTML = arr;
+
+function myFunction() {
+  arr.splice(2,1,"Watermelon","Mango")
+  document.getElementById("demo").innerHTML = "Array after Splicing: " + arr;
+}
+</script>
+</body>
+</html>`'>
+        Implement this </button></div>
+        </div>
+
+
+        </div>
+        </div>
+        </center>
+
+
+        <center>
+        	<div class="container">
+            <div class="row">
+            <div class="col-sm-6">
+<div class="code">
+  <textarea id="jsCode" style="height: 96%">
+<!DOCTYPE html>
+<head>
+</head>
+<body style="background-color:hotpink;text-align:center;font-family: cursive;">
+<h1 style="color: white;">Lets use Pre-defined Array functions of javascript!!</h1>
+<h2 style="color: white;">Choose from the above options of various Pre-defined array functions</h2>
+<p style="color: white;">Then implement to see effect</p>
+</body>
+</html>
+</textarea>  
+<button type="button" style="background-color: rgb(111, 151, 211); " class="btn btn-success" onclick="showPreview()">
+Try this out
+</button>    
+</div>
+</div>
+<div class="col-sm-6">
+<div class="preview">
+  <iframe id="preview-window"></iframe>
+</div>
+</div>
+</div>
+</div>
+            </center>
+            <script>
+                function showPreview(){
+                var jsCode = ""+document.getElementById("jsCode").value+"";
+                var frame = document.getElementById("preview-window").contentWindow.document;
+                frame.open();
+                frame.write(jsCode);
+                frame.close();
+              }
+              </script>
+
+            <center><div class="container" >
+                <div class="row">
+                  <h3><b><u>JS Code Editor for Pre-Defined Date Functions</u></b></h3>
+                  <br>
+                  <div class="col-sm-3">
+                    <div class="tbox">
+                        getHours Function :
+                        <p> date.getHours() </p><br>
+                        
+                  <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode1").
+                  innerHTML=`  <!DOCTYPE html>
+            <head>
+            </head>
+            <body style="background-color:orange;text-align:center;">
+            <h2 style="font-family:cursive;color:red;">JavaScript getHours function</h2>
+            
+            <p>The getHours() method returns the hours of a date as a number (0-23):</p>
+            <button onclick="myFunction()">Try it</button>
+            <p id="demo"></p>
+            
+            <script>
+            var d = new Date(); 
+            document.getElementById("demo").innerHTML = d;
+            
+            function myFunction() {
+            document.getElementById("demo").innerHTML = d.getHours();
+            }
+            </script>
+            </body>
+            </html>`'>
+                Implement this </button></div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="tbox">
+                        getDate Function :
+                        <p> date.getDate() </p><br>
+                        
+                  <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode1").
+                  innerHTML=`  <!DOCTYPE html>
+            <head>
+            </head>
+            <body style="background-color:orange;text-align:center;">
+            <h2 style="font-family:cursive;color:red;">JavaScript getDate function</h2>
+            
+            <p>The getDate() method returns the day of a date as a number (1-31):</p>
+            <button onclick="myFunction()">Try it</button>
+            <p id="demo"></p>
+            
+            <script>
+            var d= new Date();
+            document.getElementById("demo").innerHTML = d;
+            
+            function myFunction() {
+            document.getElementById("demo").innerHTML = d.getDate();
+            }
+            </script>
+            </body>
+            </html>`'>
+                Implement this </button></div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="tbox">
+                        getDay Function :
+                        <p> date.getDay() </p><br>
+                        
+                  <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode1").
+                  innerHTML=`  <!DOCTYPE html>
+            <head>
+            </head>
+            <body style="background-color:orange;text-align:center;">
+            <h2 style="font-family:cursive;color:red;">JavaScript getDay function</h2>
+            
+            <p>The getDay() method returns the weekday as a number:</p>
+            <button onclick="myFunction()">Try it</button>
+            <p id="demo"></p>
+            
+            <script>
+            var d= new Date();
+            document.getElementById("demo").innerHTML = d;
+            
+            function myFunction() {
+            document.getElementById("demo").innerHTML = d.getDay();
+            }
+            </script>
+            </body>
+            </html>`'>
+                Implement this </button></div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="tbox">
+                        getFullYear Function :
+                        <p> date.getFullYear() </p><br>
+                        
+                  <button type="button" class="btn btn-success" onclick='document.getElementById("jsCode1").
+                  innerHTML=`  <!DOCTYPE html>
+            <head>
+            </head>
+            <body style="background-color:orange;text-align:center;">
+            <h2 style="font-family:cursive;color:red;">JavaScript getFullYear function</h2>
+            
+            <p>The getFullYear() method returns the full year of a date:</p>
+            <button onclick="myFunction()">Try it</button>
+            <p id="demo"></p>
+            
+            <script>
+                var d= new Date();
+            document.getElementById("demo").innerHTML = d;
+            
+            function myFunction() {
+            document.getElementById("demo").innerHTML = d.getFullYear();
+            }
+            </script>
+            </body>
+            </html>`'>
+                Implement this </button></div>
+                </div>
+
+            </div>
+        </div>
+        </center>
+                <center>
+                    <div class="container">
+                    <div class="row">
+                    <div class="col-sm-6">
+        <div class="code">
+          <textarea id="jsCode1" style="height: 96%">
+        <!DOCTYPE html>
+        <head>
+        </head>
+        <body style="background-color:hotpink;text-align:center;font-family: cursive;">
+        <h1 style="color: white;">Lets use Pre-defined Date functions of javascript!!</h1>
+        <h2 style="color: white;">Choose from the above options of various Pre-defined Date functions</h2>
+        <p style="color: white;">Then implement to see effect</p>
+        </body>
+        </html>
+        </textarea>  
+        <button type="button" style="background-color: rgb(111, 151, 211); " class="btn btn-success" onclick="showPreview2()">
+        Try this out
+        </button>    
+        </div>
+        </div>
+        <div class="col-sm-6">
+        <div class="preview">
+          <iframe id="preview-window2"></iframe>
+        </div>
+        </div>
+        </div>
+        </div>
+                    </center>
+
+                    <script>
+                        function showPreview2(){
+                        var jsCode = ""+document.getElementById("jsCode1").value+"";
+                        var frame = document.getElementById("preview-window2").contentWindow.document;
+                        frame.open();
+                        frame.write(jsCode);
+                        frame.close();
+                      }
+                      </script>
+
+ 
+</body>
+</html>
